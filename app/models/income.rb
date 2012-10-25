@@ -3,7 +3,7 @@ class Income < ActiveRecord::Base
   hobo_model # Don't put anything above this
 
   fields do
-    descripcion :string
+    descripcion :string, :name => true
     cantidad    :decimal
     fecha       :date
     timestamps

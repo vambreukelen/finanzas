@@ -8,8 +8,9 @@ class Expense < ActiveRecord::Base
     fecha       :date
     timestamps
   end
- attr_accessible :descripcion, :category, :cantidad, :fecha,  :category_id
+                attr_accessible :descripcion, :category, :cantidad, :fecha,  :category_id
   belongs_to :category
+
 
 
   # --- Permissions --- #

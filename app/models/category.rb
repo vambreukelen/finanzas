@@ -10,6 +10,7 @@ class Category < ActiveRecord::Base
   has_many :incomes, :accessible => true
   has_many :expenses, :accessible => true
   
+  
 
   
   
