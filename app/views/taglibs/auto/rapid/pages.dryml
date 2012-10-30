@@ -219,7 +219,7 @@
           </header>
 
           <section param="content-body">
-            <field-list fields="descripcion, cantidad, fecha, category" param/>
+            <field-list fields="cantidad, fecha, category" param/>
           </section>
     </content:>
 

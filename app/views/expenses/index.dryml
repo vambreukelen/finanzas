@@ -1,13 +1,13 @@
 <index-page>
 
-    <content-body:>
-        <card-ingresos/>
-      
-    </content-body:>
+<!--    <content-body:>-->
+<!--        <card-ingresos/>-->
+<!--      -->
+<!--    </content-body:>-->
 </index-page>
  
- 
- <def tag="card-ingresos">
+<!-- -->
+<!-- <def tag="card-ingresos">-->
  
 <!--        <header param="content-header">-->
 <!--        <h2 param="heading">-->
@@ -23,25 +23,25 @@
 <!--        </p>-->
 <!--      </header>-->
 
-      <section param="content-body">
-        
+<!--      <section param="content-body">-->
+<!--        -->
 
 <!--        <page-nav param="top-page-nav"/>-->
 
-             <collection>
-                <card>            
-                  INGRESO:    <editor:descripcion/>
-                  CANTIDAD:   <editor:cantidad/>
-                  FECHA:      <editor:fecha/>
-                  CATEGORIA:  <editor:category/>
-                  
-                </card>
-             </collection>
+<!--             <collection>-->
+<!--                <card>            -->
+<!--                  INGRESO:    <editor:descripcion/>-->
+<!--                  CANTIDAD:   <editor:cantidad/>-->
+<!--                  FECHA:      <editor:fecha/>-->
+<!--                  CATEGORIA:  <editor:category/>-->
+<!--                  -->
+<!--                </card>-->
+<!--             </collection>-->
 
 <!--        <page-nav param="bottom-page-nav"/>-->
 
 
-      </section>
- 
- </def>
+<!--      </section>-->
+<!-- -->
+<!-- </def>-->
 

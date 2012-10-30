@@ -7,10 +7,18 @@ you can place common code in this file. -->
 
 <def tag="main-nav">
   <navigation class="main-nav" merge-attrs param="default">
-    <nav-item>resultado</nav-item>
-    <nav-item with="&Category"><ht key="category.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item href="/resultado">Resul</nav-item>
+<!--    <nav-item with="&Category"><ht key="category.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>-->
     <nav-item with="&Expense"><ht key="expense.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Income"><ht key="income.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
   </navigation>
 </def>
 
+
+<extend tag="account-nav">
+  <old-account-nav merge>
+    <before-log-out:>
+      <li><a>patata</a></li>
+    </before-log-out:>
+  </old-account-nav>
+</extend>

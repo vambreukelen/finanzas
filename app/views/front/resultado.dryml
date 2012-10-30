@@ -1,0 +1,10 @@
+<page>
+  <content:>
+     <todo/>
+  </content:>
+</page>
+
+<def tag="todo">
+RESULTADO
+
+</def>
