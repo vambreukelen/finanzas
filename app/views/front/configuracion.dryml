@@ -1,0 +1,19 @@
+<page>
+  <content:>
+     <principio/>
+     <todo/>
+  </content:>
+</page>
+
+<def tag="principio">
+  ACCEDE A LA CONFIGURACION DE TUS CATEGORIAS
+<br/>
+<br/>
+
+</def>
+
+<def tag="todo">
+
+  <nav-item with="&Category"><ht key="category.nav_item" count="100"><model-name-human    count="100"/></ht></nav-item>
+
+</def>

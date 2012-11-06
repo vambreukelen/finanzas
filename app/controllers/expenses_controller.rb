@@ -8,6 +8,6 @@ class ExpensesController < ApplicationController
 
   def diferencia 
     @dif = 1000
-    return @dif
+    
   end
 end

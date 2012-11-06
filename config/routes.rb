@@ -4,6 +4,7 @@ Beneficios::Application.routes.draw do
   root :to => 'front#resultado'
 
   match 'resultado' => 'front#resultado'
+  match 'configuracion' => 'front#configuracion'
 
   match 'users/:id/reset_password_from_email/:key' => 'users#reset_password', :as => 'reset_password_from_email'
 
