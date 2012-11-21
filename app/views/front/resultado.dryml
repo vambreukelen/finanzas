@@ -5,7 +5,7 @@
 </page>
 
 <def tag="todo">
-Resultado = 
-<view with="&@dif"/>
+Resultado = <%= @dif %>
+
 
 </def>

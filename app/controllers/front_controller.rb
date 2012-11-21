@@ -2,7 +2,10 @@ class FrontController < ApplicationController
 
   hobo_controller
 
-  def index; end
+  def index
+    @dif = 1000
+
+  end
 
   def summary
     if !current_user.administrator?
@@ -16,7 +19,6 @@ class FrontController < ApplicationController
     end
   end
 
-  def diferecia 
-      @dif = 1000
-  end
+
+
 end

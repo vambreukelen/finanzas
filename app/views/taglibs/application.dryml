@@ -18,7 +18,16 @@ you can place common code in this file. -->
 <extend tag="account-nav">
   <old-account-nav merge>
     <before-log-out:>
-      <nav-item href="/configuracion">Configuration</nav-item>
+
+   <li class="dropdown">
+      <a href="#" data-toggle="dropdown" role="button" id="drop-configuracion" class="dropdown-toggle">Configuración<b class="caret"></b></a>
+      <ul aria-labelledby="drop-configuracion" role="menu" class="dropdown-menu" id="menu1">
+
+        <nav-item with="&Category"><ht key="category.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+        <nav-item href="/resultado">Estilos</nav-item>
+
+      </ul>
+    </li>
     </before-log-out:>
   </old-account-nav>
 </extend>
